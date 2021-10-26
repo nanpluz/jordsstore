@@ -103,3 +103,15 @@
     font-style: italic;
     font-size: 20px;
 }
+
+@media screen and (min-width:500px) {
+    .top_area {
+        height: 100px;
+    }
+    .btn_container {
+        top: 470px;
+    }
+    .elements {
+        height: 120vh;
+    }
+}
