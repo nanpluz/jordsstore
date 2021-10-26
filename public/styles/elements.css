@@ -1,21 +1,105 @@
 .elements {
-    width: 400px;
+    width: 100vw;
     height: 100vh;
     background-color: #EAEAEA;
 }
 
-.elements_container {
-    a: a;
-}
+.elements_container {}
 
 .social_media {
-    a: a;
+    max-width: 300px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin: auto;
 }
 
 .instagram {
-    a: a;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #C4C4C4;
 }
 
 .whatsapp {
-    a: a;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #C4C4C4;
+}
+
+.tiktok {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #C4C4C4;
+}
+
+.falinha {
+    position: relative;
+    left: 10px;
+    display: block;
+    width: 200px;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-size: 24px;
+    font-weight: 700;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.btn_container {
+    position: absolute;
+    top: 380px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.btn_container:hover {
+    cursor: pointer;
+}
+
+.btn {
+    position: absolute;
+    top: -20px;
+    left: -65px;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 10px;
+    background-color: #252A34;
+}
+
+.btn_content {
+    color: #08D9D6;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.btn_shadow {
+    position: absolute;
+    top: -14px;
+    left: -62px;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 10px;
+    background-color: #EAEAEA;
+    z-index: -1;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #252A34;
+}
+
+.btn_shadow_content {
+    opacity: 0;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 20px;
 }

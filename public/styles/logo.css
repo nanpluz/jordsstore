@@ -1,7 +1,12 @@
 .logo_container {
-    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
+    background-color: transparent;
 }
 
 .logo {
-    a: a;
+    margin-top: 0px;
+    width: 140px;
 }
