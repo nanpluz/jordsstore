@@ -17,9 +17,9 @@ function acessarLoja() {
 
 function abrirInsta() {
     console.log("funcionou");
-    
+
     setTimeout(() => {
-    
-    window.open("https://www.instagram.com/jordssports");
+
+        window.open("https://www.instagram.com/jordssports");
     }, 600);
 }

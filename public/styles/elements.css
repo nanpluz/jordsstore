@@ -28,6 +28,10 @@
     background-color: #C4C4C4;
 }
 
+.instagram:hover {
+    box-shadow: inset 0px 0px 0px 3px #FF2E63;
+}
+
 .whatsapp {
     width: 50px;
     height: 50px;
@@ -35,11 +39,19 @@
     background-color: #C4C4C4;
 }
 
+.whatsapp:hover {
+    box-shadow: inset 0px 0px 0px 3px #252A34;
+}
+
 .tiktok {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     background-color: #C4C4C4;
+}
+
+.tiktok:hover {
+    box-shadow: inset 0px 0px 0px 3px #08D9D6;
 }
 
 .falinha {
@@ -112,6 +124,42 @@
 
 @media screen and (max-height:424px) {
     .elements {
+        height: 120vh;
+    }
+}
+
+@media screen and (max-height:365px) {
+    .elements {
+        height: 140vh;
+    }
+}
+
+@media screen and (max-height:315px) {
+    .elements {
         height: 160vh;
+    }
+}
+
+@media screen and (max-height:275px) {
+    .elements {
+        height: 180vh;
+    }
+}
+
+@media screen and (max-height:240px) {
+    .elements {
+        height: 200vh;
+    }
+}
+
+@media screen and (max-height:220px) {
+    .elements {
+        height: 220vh;
+    }
+}
+
+@media screen and (max-height:200px) {
+    .elements {
+        height: 420vh;
     }
 }
