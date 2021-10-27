@@ -4,6 +4,12 @@
     background-color: #EAEAEA;
 }
 
+.position_container {
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+}
+
 .elements_container {}
 
 .social_media {
@@ -51,7 +57,7 @@
 
 .btn_container {
     position: absolute;
-    top: 380px;
+    top: 350px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -104,14 +110,8 @@
     font-size: 20px;
 }
 
-@media screen and (min-width:500px) {
-    .top_area {
-        height: 100px;
-    }
-    .btn_container {
-        top: 470px;
-    }
+@media screen and (max-height:424px) {
     .elements {
-        height: 120vh;
+        height: 160vh;
     }
 }
