@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/general.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1 id="title">CRUD</h1>
+    <div class="form">
+        <div id="estoque">
+            <span id="estoque-text">Estoque</span>
+            <div id="estoque-btn" onclick="switchEstoque()"></div>
+        </div>
+        <div id="image-container">
+            <span id="image-text">url: </span>
+            <input type="text" id="image" placeholder="https://link.com">
+            <a id="image-btn" onclick="addImage()" href="#">+</a>
+            <div id="images"></div>
+        </div>
+        <div id="cor-container">
+            <span id="cor-text">cor: </span>
+            <input type="text" id="cor" placeholder="vermelho">
+        </div>
+        <div id="liga-container">
+            <span id="liga-text">liga: </span>
+            <input type="text" id="liga" placeholder="espanhola">
+        </div>
+        <div id="time-container">
+            <span id="time-text">time: </span>
+            <input type="text" id="time" placeholder="flamengo">
+        </div>
+        <div id="nome-container">
+            <span id="nome-text">nome: </span>
+            <input type="text" id="nome" placeholder="flamengo-xxl-branca">
+        </div>
+        <a id="send" onclick="sendForm()" href="#">enviar</a>
+    </div>
+    <script src="./scripts/geral.js"></script>
+    <script src="./scripts/image.js"></script>
+    <script src="./scripts/estoque.js"></script>
+</body>
+
+</html>

@@ -8,6 +8,7 @@ function acessarLoja() {
     btn_shadow.style.backgroundColor = "#252A34";
     btn_content.style.color = "#FF2E63";
     setTimeout(() => {
+        window.open("../store/index.html")
         btn.style.top = "-20px";
         btn.style.left = "-65px";
         btn_content.style.color = "#08D9D6";
